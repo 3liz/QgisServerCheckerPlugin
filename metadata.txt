@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since
+# version 2.0 of QGIS this is the proper way to supply
+# information about a plugin. The old method of
+# embedding metadata in __init__.py will
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=QGIS Server Checker
+qgisMinimumVersion=2.8
+description=QGIS OWS Server Checker Plugin
+version=0.1
+author=3Liz
+email=info@3Liz.com
+
+about=This plugin help users to create well configured project for QGIS Server
+
+tracker=https://github.com/3liz/QgisServerCheckerPlugin/issues
+repository=https://github.com/3liz/QgisServerCheckerPlugin
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=QGIS-Server
+
+homepage=https://github.com/3liz/QgisServerCheckerPlugin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
